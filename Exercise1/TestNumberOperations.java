@@ -25,7 +25,7 @@ public class TestNumberOperations {
 			System.out.println("Mimimum: "
 					+ NumbersOperations.getMin(intNumbers));
 		} catch (IllegalArrayException e) {
-			System.out.println(e.getExceptionMessage(intNumbers));
+			System.out.println(e.getExceptionMessage());
 		}
 
 		System.out.println();
@@ -45,7 +45,7 @@ public class TestNumberOperations {
 			System.out.println("Mimimum: "
 					+ NumbersOperations.getMin(doubleNumbers));
 		} catch (IllegalArrayException e) {
-			System.out.println(e.getExceptionMessage(doubleNumbers));
+			System.out.println(e.getExceptionMessage());
 		}
 
 		System.out.println();
