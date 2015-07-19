@@ -28,7 +28,7 @@
  * 6. Реализовать класс, в который выделены методы, реализованные в пунктах 1-5.
  * 
  */
-package practice.excercises.excercize1;
+package practice.exercises.exercise1;
 
 public class NumbersOperations {
 
