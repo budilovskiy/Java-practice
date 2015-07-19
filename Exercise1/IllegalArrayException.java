@@ -16,11 +16,7 @@ public class IllegalArrayException extends Throwable {
 	}
 	
 	public String getExceptionMessage(int[] array) {
-		return "Error: Parameter " + element + " of command-line does not have type \"int\"";
-	}
-	
-	public String getExceptionMessage(double[] array) {
-		return "Error: Parameter " + element + " of command-line does not have type \"double\"";
+		return "Error: Parameter " + element + " of command-line does not have legal type";
 	}
 	
 }
