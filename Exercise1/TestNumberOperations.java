@@ -98,7 +98,7 @@ public class TestNumberOperations {
 				intNumbers[i] = Integer.parseInt(args[i]);
 			} catch (NumberFormatException ex1) {
 				intNumbers = null;
-				throw new IllegalArrayException();
+				throw new IllegalArrayException(args[i]);
 			}
 		}
 		return intNumbers;
@@ -120,7 +120,7 @@ public class TestNumberOperations {
 				doubleNumbers[i] = Double.parseDouble(args[i]);
 			} catch (NumberFormatException ex1) {
 				doubleNumbers = null;
-				throw new IllegalArrayException();
+				throw new IllegalArrayException(args[i]);
 			}
 		}
 		return doubleNumbers;
