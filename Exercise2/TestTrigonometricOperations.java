@@ -1,4 +1,4 @@
-package practice.exercises.exercise1;
+package practice.exercises.exercise2;
 
 import java.util.Random;
 
