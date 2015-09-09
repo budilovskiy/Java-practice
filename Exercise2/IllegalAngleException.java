@@ -1,7 +1,7 @@
 package practice.exercises.exercise2;
 
 @SuppressWarnings("serial")
-class IllegalAngleException extends IllegalArgumentException {
+class IllegalAngleException extends RuntimeException {
 
 	/**
 	 * Constructs a new IllegalAngleException with no detail message.
